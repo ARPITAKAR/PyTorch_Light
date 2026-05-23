@@ -4,7 +4,7 @@ A hands-on repository focused on learning and practicing PyTorch concepts by bui
 
 ---
 
-## 📚 What This Repository Covers
+## 📚 What This Repository Covered
 
 This repo is built to practice:
 
