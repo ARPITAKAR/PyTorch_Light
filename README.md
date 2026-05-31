@@ -1,56 +1,185 @@
-# 🚀 PyTorch Practice Projects
+# PyTorch & Deep Learning Practice Repository
 
-A hands-on repository focused on learning and practicing PyTorch concepts by building real-world deep learning projects.
+This repository contains my hands-on practice notebooks for learning:
 
----
-
-## 📚 What This Repository Covered
-
-This repo is built to practice:
-
-- PyTorch Basics
-- Tensor Operations
-- Autograd & Backpropagation
-- ANN (Artificial Neural Networks)
-- CNN (Convolutional Neural Networks)
+- PyTorch
+- TensorFlow Backpropagation
+- Artificial Neural Networks (ANN)
+- Convolutional Neural Networks (CNN)
 - GPU Training
-- Model Evaluation
-- Hyperparameter Tuning with Optuna
-- End-to-End Deep Learning Pipelines
+- Hyperparameter Optimization
+- Deep Learning Fundamentals
+
+The repository mainly focuses on implementing concepts from scratch and understanding the internal working of neural networks instead of only using high-level APIs.
 
 ---
 
-## 🧠 Projects Included
+# Repository Structure
 
-| Project | Concepts Practiced |
-|----------|-------------------|
-| ANN Customer Churn Prediction | Feed Forward Networks, Classification |
-| CNN Image Classification | Convolutions, Pooling, GPU Training |
-| Tensor Practice Notebook | Tensor Operations, Autograd |
-| Optuna Hyperparameter Tuning | Optimization & Experimentation |
-| PyTorch Pipeline Project | Complete Training Workflow |
+## ANN & Tensor Basics
+
+### `tensors-pytorch.ipynb`
+Covers:
+- Tensor creation
+- Tensor operations
+- Shape manipulation
+- Broadcasting
+- Basic PyTorch tensor workflow
 
 ---
 
-## 🛠️ Tech Stack
+### `pytorch_nn_module.ipynb`
+Covers:
+- `nn.Module`
+- Building neural networks using PyTorch classes
+- Forward propagation
+- Model structure
+
+---
+
+# Backpropagation
+
+### `Backpropogation Tensorflow from scratch.ipynb`
+Covers:
+- Backpropagation implementation from scratch
+- Gradient calculation
+- Weight updates
+- Understanding chain rule in neural networks
+
+Main focus:
+- Understanding internal neural network mathematics
+
+---
+
+# MNIST ANN Projects
+
+### `MNIST_PyTorch_ANN_CPU.ipynb`
+Covers:
+- ANN training on MNIST dataset using CPU
+- Data loading
+- Forward pass
+- Loss calculation
+- Training loop
+
+---
+
+### `MNIST_PyTorch_ANN_GPU.ipynb`
+Covers:
+- GPU acceleration using CUDA
+- Faster ANN training
+- Device management in PyTorch
+
+---
+
+### `MNIST_PyTorch_ANN_gpu_Optimized.ipynb`
+Covers:
+- Optimized GPU training
+- Improved performance
+- Better training workflow
+
+---
+
+# Hyperparameter Optimization
+
+### `Optuna Pytorch ANN GPU.ipynb`
+Covers:
+- Hyperparameter tuning using Optuna
+- Learning rate optimization
+- Batch size tuning
+- Hidden layer experimentation
+
+Technologies:
+- PyTorch
+- Optuna
+
+---
+
+# CNN Project
+
+### `Pytorch CNN GPU.ipynb`
+Covers:
+- Convolutional Neural Networks (CNN)
+- Image classification
+- Convolution layers
+- Pooling layers
+- GPU training
+
+Concepts:
+- Feature maps
+- Kernels
+- CNN architecture
+
+---
+
+# Pipeline Project
+
+### `Pytorch-Customer_churn-pipeline`
+Covers:
+- End-to-end ML pipeline
+- Data preprocessing
+- Model training
+- Prediction workflow
+
+---
+
+# Skills Practiced
+
+- PyTorch
+- TensorFlow
+- Neural Networks
+- CNNs
+- Backpropagation
+- GPU Computing
+- CUDA
+- Hyperparameter Tuning
+- Deep Learning Mathematics
+- Data Pipelines
+
+---
+
+# Technologies Used
 
 - Python
 - PyTorch
+- TensorFlow
 - NumPy
 - Pandas
-- Scikit-Learn
 - Matplotlib
 - Optuna
 - Kaggle Notebooks
+- Google Colab
 
 ---
 
-## 📂 Repository Structure
+# Learning Goals
 
-```bash
-├── tensors-pytorch.ipynb
-├── pytorch-ann-gpu.ipynb
-├── Pytorch CNN GPU.ipynb
-├── Optuna Pytorch ANN GPU.ipynb
-├── Pytorch-Customer_churn-pipeline
-└── README.md    
+This repository is focused on:
+- Building strong deep learning fundamentals
+- Understanding neural networks mathematically
+- Implementing models from scratch
+- Learning GPU optimization
+- Practicing real deep learning workflows
+
+---
+
+# Future Additions
+
+Planned topics:
+- ResNet
+- Transfer Learning
+- LSTMs
+- Transformers
+- NLP
+- FastAPI Model Deployment
+- WebSocket Streaming
+- MLOps Basics
+
+---
+
+# Author
+
+ARPITAKAR
+
+GitHub: `https://github.com/<your-username>`
+
+---
