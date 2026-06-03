@@ -180,6 +180,6 @@ Planned topics:
 
 ARPITAKAR
 
-GitHub: `https://github.com/<your-username>`
+GitHub: `https://github.com/ARPITAKAR`
 
 ---
